@@ -1,0 +1,113 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 20px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+
+.swiper-slide img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: .5rem;
+    border: 2px solid #461095;
+}
+
+.swiper-pagination {
+    transform: translateY(-185px);
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    width: 13px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #48aadb;
+    transition: .2s linear;
+}
+
+.swiper-pagination-bullet-active {
+    width: 25px !important;
+    height: 8px !important;
+    border-radius: 10px !important;
+    background-color: #42b4ee !important;
+}
+
+.card-body {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 5px solid #fff;
+    transition: .4s linear;
+    border-radius: .300rem !important;
+
+}
+
+.card-body:hover {
+    border-top: 1px solid #461095;
+    border-left: 1px solid #461095;
+    border-right: 1px solid #461095;
+    border-bottom: 5px solid #461095;
+}
+
+.card-body:hover .card-text {
+    color: #051114
+}
+
+.card-title {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.card-subtitle {
+    font-size: 10px;
+}
+
+.card-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #05111480;
+    font-style: italic;
+    margin-bottom: 2rem;
+    transition: .4s;
+}
